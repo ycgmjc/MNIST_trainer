@@ -1,0 +1,4 @@
+*.idx1-ubyte
+/__pycache__/
+/dataset_cache/
+
