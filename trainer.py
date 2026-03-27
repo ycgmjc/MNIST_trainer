@@ -60,7 +60,7 @@ class MNISTTrainer():
             'best_accuracy': self.best_accuracy,
         }
         torch.save(checkpoint, ckpt_path)
-        print(f"=> Checkpoint saved to {ckpt_path}")
+        print(f"=> Checkpoint saved to {ckpt_path}\n")
 
     def train(self):
         print("\nTraining...")
@@ -132,7 +132,7 @@ class MNISTTrainer():
         accuracy = 100 * correct / total
         avg_loss = val_loss / len(self.val_loader)
         
-        print(f"[Validation Results - Loss: {avg_loss:.4f} | Accuracy: {accuracy:.2f}%]")
+        print(f"[Validation Results - Loss: {avg_loss:.4f} | Accuracy: {accuracy:.2f}%]\n")
         
         # Switch back to training mode
         self.model.train()
@@ -140,6 +140,7 @@ class MNISTTrainer():
 
 
 if __name__ == "__main__":
+    # Set training device. May need to change if not using CUDA-applicable hardware
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}\n")
     
@@ -160,10 +161,10 @@ if __name__ == "__main__":
         'device': device, 
         'batch_size': 64, 
         'num_workers': 8,   
-        'validation_freq': 10,  
+        'validation_freq': 1,  
         'model' : SimpleMNISTCNN(), 
         'loss_funct' : nn.CrossEntropyLoss(),
-        'exp_dir' : 'Example_Training'            
+        'exp_dir' : 'Example_Training_1'            
     }
     
     trainer = MNISTTrainer(config)
