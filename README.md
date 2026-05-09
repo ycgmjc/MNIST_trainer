@@ -1,5 +1,6 @@
 <h1>MNIST Trainer</h1>
 <p>This is a simple Neural Network trainer that utilizes the MNIST Dataset.</p>
+<p>It includes a simple Gradio web interface to check the trained model.</p>
 
 <h3>Description</h3>
 <ul>
@@ -18,4 +19,6 @@
     <li>(Optional) Change configs and hyperparameters in <code>trainer.py</code>.</li>
     <li>Run the trainer: <code>python trainer.py</code></li>
     <li>The trained module will be saved in <code>/Exps</code>.</li>
+    <li>To test the trained model, run the web UI: <code>python app.py</code></li>
+    <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
 </ol>
