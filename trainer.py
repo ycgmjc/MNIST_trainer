@@ -164,7 +164,7 @@ if __name__ == "__main__":
         'validation_freq': 1,  
         'model' : SimpleMNISTCNN(), 
         'loss_funct' : nn.CrossEntropyLoss(),
-        'exp_dir' : 'Example_Training_1'            
+        'exp_dir' : 'test'            
     }
     
     trainer = MNISTTrainer(config)
