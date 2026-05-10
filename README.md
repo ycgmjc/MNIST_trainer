@@ -13,8 +13,8 @@
     <li><strong>/static</strong>: The directory containing the frontend web file (i.e. <code>index.html</code>) for the drawing interface.</li>
 </ul>
 
-<h3>How to use</h3>
-<h2>Training</h2>
+<h2>How to use</h2>
+<h3>Training</h3>
 <ol>
     <li>Make sure you have Python and the requirements installed.<br>
         To install all requirements, run <code>pip install -r requirements.txt</code></li>
@@ -22,15 +22,18 @@
     <li>Run the trainer: <code>python trainer.py</code></li>
     <li>The trained module will be saved in <code>/Exps</code>.</li>
 </ol>
-<h2>Testing</h2>
-<h1><code>app.py</code></h1>
+<h3>Testing</h3>
 <ol>
-    <li>To test the trained model, run the web UI: <code>python app.py</code></li>
-    <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
+    <ui><code>app.py</code></ui>
+    <ol>
+        <li>To test the trained model, run the web UI: <code>python app.py</code></li>
+        <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
+    </ol>
+    <ui><code>server.py</code></ui>
+    <ol>
+        <li>To test the trained model, start the web server: <code>python server.py</code></li>
+        <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
+    </ol>
 </ol>
-<h1><code>server.py</code></h1>
-<ol>
-    <li>To test the trained model, start the web server: <code>python server.py</code></li>
-    <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
-</ol>
+
 
