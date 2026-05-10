@@ -27,13 +27,13 @@
 <h3>Testing</h3>
 <code>app.py</code>
 <ol>
-    <li>Change the checkpoint directory in <code>app.py</code> to the model you want to check.</li> 
+    <li>Set the correct checkpoint and model directory in <code>app.py</code></li> 
     <li>Run the web UI: <code>python app.py</code></li>
     <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
 </ol>
 <code>server.py</code>
 <ol>
-    <li>Change the checkpoint directory in <code>server.py</code> to the model you want to check.</li> 
+    <li>Set the correct checkpoint and model directory in <code>server.py</code></li> 
     <li>Start the web server: <code>python server.py</code></li>
     <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
 </ol>
