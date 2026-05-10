@@ -7,6 +7,8 @@
     <li><strong>Loader.py</strong>: Responsible for loading in the MNIST dataset and preparing it for training.</li>
     <li><strong>Models.py</strong>: Holds Neural Network models to use for training.</li>
     <li><strong>trainer.py</strong>: The actual trainer used to train the neural network.</li>
+    <li><strong>app.py</strong>: A Gradio based web app to check a trained model's validity.</li>
+    <li><strong>server.py</strong>: A FastAPI based web interface to check a trained model's validity.</li>
     <li><strong>requirements.txt</strong>: The requirements for running the trainer.</li>
     <li><strong>/Exps</strong>: The directory where each training result is saved.</li>
     <li><strong>/dataset</strong>: The directory where the MNIST dataset should be in.</li>
