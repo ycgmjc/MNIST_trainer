@@ -23,17 +23,15 @@
     <li>The trained module will be saved in <code>/Exps</code>.</li>
 </ol>
 <h3>Testing</h3>
+<code>app.py</code>
 <ol>
-    <ui><code>app.py</code></ui>
-    <ol>
-        <li>To test the trained model, run the web UI: <code>python app.py</code></li>
-        <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
-    </ol>
-    <ui><code>server.py</code></ui>
-    <ol>
-        <li>To test the trained model, start the web server: <code>python server.py</code></li>
-        <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
-    </ol>
+    <li>To test the trained model, run the web UI: <code>python app.py</code></li>
+    <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
+</ol>
+<code>server.py</code>
+<ol>
+    <li>To test the trained model, start the web server: <code>python server.py</code></li>
+    <li>Open your browser and navigate to <code>http://127.0.0.1:8000</code> to draw digits and see the model's predictions.</li>
 </ol>
 
 
